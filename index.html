@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence | Bootstrap Project 1</title>
+
+    <!-- Primary Meta Tag -->
+    <meta name="title" content="agence | Bootstrap Project">
+    <meta name="description" content="Project made by me.">
+
+    <!-- Open Graph/Facebook -->
+    <meta property="og:image" content="images/agenc-preview.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=""/>
+    <meta property="og:title" content="Agenc | Bootstrap Project" />
+    <meta property="og:description" content="Project made by me."/>
+
+    <!-- FontAwesome CSS -->
+    <!-- <link rel="stylesheet" href="./css/all.min.css"/> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="./css/slick.css"/>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+
+    <!-- CSS Source -->
+    <link rel="stylesheet" href="./css/style.css"/>
+
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+    <!-- -------------------------------------------
+    ---- Navbar Section
+    -------------------------------------------- -->
+
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="logo"/>
+        </a>
+
+        <div class="nav-menu">
+          <ul>
+            <li>
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Career</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="custom-btn">Contact</button>
+
+        <div class="mobile-nav-icon" onclick="iconFunc(this)">
+          <!-- <i id="mobile-nav-icon" class="fa-solid fa-bars"></i> -->
+
+          <div class="icon-container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+
+        </div>
+
+        <div class="mobile-menu-items">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+    
+    <!-- -------------------------------------------
+    ---- Banner Section
+    -------------------------------------------- -->
+
+    <section class="banner-slider">
+      <!-- Banner 1 -->
+      <div>
+        <div id="banner" class="slide-1">
+          <!-- Banner Contents -->
+          <div class="container">
+            <h1 class="mx-auto">We Help brands with high quality services</h1>
+    
+            <p class="mx-auto">
+              There are many variations of passages of Lorem Ipsum available, but themajority  have suffered 
+              alteration in some form, by injected humour, or randomised words which don't look.
+            </p>
+    
+            <button class="custom-btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner 2 -->
+      <div>
+        <div id="banner" class="slide-2">
+          <!-- Banner Contents -->
+          <div class="container">
+            <h1 class="mx-auto">We Help brands with high quality services</h1>
+    
+            <p class="mx-auto">
+              There are many variations of passages of Lorem Ipsum available, but themajority  have suffered 
+              alteration in some form, by injected humour, or randomised words which don't look.
+            </p>
+    
+            <button class="custom-btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner 3 -->
+      <div>
+        <div id="banner" class="slide-3">
+          <!-- Banner Contents -->
+          <div class="container">
+            <h1 class="mx-auto">We Help brands with high quality services</h1>
+    
+            <p class="mx-auto">
+              There are many variations of passages of Lorem Ipsum available, but themajority  have suffered 
+              alteration in some form, by injected humour, or randomised words which don't look.
+            </p>
+    
+            <button class="custom-btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner 4 -->
+      <div>
+        <div id="banner" class="slide-4">
+          <!-- Banner Contents -->
+          <div class="container">
+            <h1 class="mx-auto">We Help brands with high quality services</h1>
+    
+            <p class="mx-auto">
+              There are many variations of passages of Lorem Ipsum available, but themajority  have suffered 
+              alteration in some form, by injected humour, or randomised words which don't look.
+            </p>
+    
+            <button class="custom-btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------
+    ---- Success Section
+    -------------------------------------------- -->
+
+    <section class="success-section">
+      <div class="container">
+        <div class="success-box">
+          <div class="left-content">
+            <p class="mb-3">Our Success</p>
+            <h3>West cost Brand makers-Global Edge</h3>
+          </div>
+
+          <div class="right-content mt-2">
+            <div>
+              <h3 class="mb-2">200+</h3>
+              <p>Customer Satisfied</p>
+            </div>
+
+            <div>
+              <h3 class="mb-2">4.5</h3>
+              <p>200+ Avg rating</p>
+            </div>
+
+            <div>
+              <h3 class="mb-2">351+</h3>
+              <p>Project Delivered</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------
+    ---- Services Section
+    -------------------------------------------- -->
+
+    <section class="services-section">
+      <div class="container">
+        <h3 class="mb-4">Our Provided Services</h3>
+
+        <p class="mx-auto mb-5">
+          There are many variations of passages of Lorem Ipsum available, but the majority 
+          have suffered alteration in some form.
+        </p>
+
+        <div class="service-cards">
+          <!-- Card 1 -->
+          <div class="service-card">
+            <img class="card-icon" src="./images/icon-1.svg" alt="icon-1"/>
+
+            <h4 class="card-headline">Web Design</h4>
+
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available, but themajority  
+              have suffered alteration in some form, by injected humour, or randomised words 
+              which don't look.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card">
+            <img class="card-icon" src="./images/icon-2.svg" alt="icon-2"/>
+
+            <h4 class="card-headline">UI/UX Design</h4>
+
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available, but themajority  
+              have suffered alteration in some form, by injected humour, or randomised words 
+              which don't look.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card">
+            <img class="card-icon" src="./images/icon-3.svg" alt="icon-3"/>
+
+            <h4 class="card-headline">Web Development</h4>
+
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available, but themajority  
+              have suffered alteration in some form, by injected humour, or randomised words 
+              which don't look.
+            </p>
+          </div>
+
+           <!-- Card 4 -->
+           <div class="service-card">
+            <img class="card-icon" src="./images/icon-4.svg" alt="icon-4"/>
+
+            <h4 class="card-headline">Motion Graphics</h4>
+
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available, but themajority  
+              have suffered alteration in some form, by injected humour, or randomised words 
+              which don't look.
+            </p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="service-card">
+            <img class="card-icon" src="./images/icon-5.svg" alt="icon-5"/>
+
+            <h4 class="card-headline">3D Animation</h4>
+
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available, but themajority  
+              have suffered alteration in some form, by injected humour, or randomised words 
+              which don't look.
+            </p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="service-card">
+            <img class="card-icon" src="./images/icon-6.svg" alt="icon-6"/>
+
+            <h4 class="card-headline">Digital Marketing</h4>
+
+            <p class="card-text">
+              There are many variations of passages of Lorem Ipsum available, but themajority  
+              have suffered alteration in some form, by injected humour, or randomised words 
+              which don't look.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------
+    ---- Work Section
+    -------------------------------------------- -->
+
+    <section class="work-section">
+      <div class="container">
+        <h3 class="mb-4">Our Recent Work</h3>
+
+        <p class="mx-auto mb-5">
+          There are many variations of passages of Lorem Ipsum available, but the majority 
+          have suffered alteration in some form.
+        </p>
+
+        <div class="work-cards">
+          <!-- Card 1 -->
+          <div class="work-card">
+            <div class="img-frame">
+              <img src="./images/work-1.jpg" alt="work-1"/>
+            </div>
+
+            <h4 class="card-headline">Task Management App</h4>
+
+            <p class="card-text">
+              This is a task management application that can help you be more
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="work-card">
+            <div class="img-frame">
+              <img src="./images/work-2.jpg" alt="work-2"/>
+            </div>
+
+            <h4 class="card-headline">Saas Landing Page Design</h4>
+
+            <p class="card-text">
+              This is a task management application that can help you be more
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="work-card">
+            <div class="img-frame">
+              <img src="./images/work-3.jpg" alt="work-3"/>
+            </div>
+
+            <h4 class="card-headline">App Design</h4>
+
+            <p class="card-text">
+              This is a task management application that can help you be more
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="work-card">
+            <div class="img-frame">
+              <img src="./images/work-4.jpg" alt="work-4"/>
+            </div>
+
+            <h4 class="card-headline">Landing Page Design</h4>
+
+            <p class="card-text">
+              This is a task management application that can help you be more
+            </p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="work-card">
+            <div class="img-frame">
+              <img src="./images/work-5.jpg" alt="work-5"/>
+            </div>
+
+            <h4 class="card-headline">Dashboard Design</h4>
+
+            <p class="card-text">
+              This is a task management application that can help you be more
+            </p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="work-card">
+            <div class="img-frame">
+              <img src="./images/work-6.jpg" alt="work-6"/>
+            </div>
+
+            <h4 class="card-headline">Web App Design</h4>
+
+            <p class="card-text">
+              This is a task management application that can help you be more
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------
+    ---- Choose Section
+    -------------------------------------------- -->
+
+    <section class="choose-section">
+      <div class="container">
+        <h3 class="mb-4">Why You Should Choose Agenc</h3>
+
+        <p class="mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
+          alteration in some form, by injected humour, or randomised words which don't look even 
+          slightly believable.
+        </p>
+
+        <div class="choose-cards">
+          <div class="column-cards">
+            <div class="choose-card">
+              <!-- Card 1 -->
+              <img src="./images/bulb-icon.svg" alt="bulb-icon"/>
+
+              <h4>Innovative Ideas</h4>
+
+              <p>
+                Because each project is different, we adapt to your business model.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="choose-card">
+              <img src="./images/support-icon.svg" alt="support-icon"/>
+
+              <h4>Dedicated Support</h4>
+
+              <p>
+                We provide 24/7 support for all our clients and serve them professionally.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="column-cards">
+            <div class="choose-card">
+              <!-- Card 1 -->
+              <img src="./images/bulb-icon.svg" alt="bulb-icon"/>
+
+              <h4>Innovative Ideas</h4>
+
+              <p>
+                Because each project is different, we adapt to your business model.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="choose-card">
+              <img src="./images/support-icon.svg" alt="support-icon"/>
+
+              <h4>Dedicated Support</h4>
+
+              <p>
+                We provide 24/7 support for all our clients and serve them professionally.
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Choose Section Image -->
+          <img class="choose-img" src="./images/choose-image.jpg" alt="choose-image"/>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------
+    ---- Review Section
+    -------------------------------------------- -->
+
+    <section class="review-section">
+      <div class="container">
+        <h3 class="mb-4">Some Client Reviews</h3>
+
+        <p class="mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but the 
+          majority  have suffered alteration in some form.
+        </p>
+      </div>
+
+      <!-- Card Slider -->
+      <div class="slide-container swiper">
+        <div class="slide-content">
+
+          <!-- Card 1 -->
+          <div class="card-wrapper swiper-wrapper">
+            <div class="review-card swiper-slide">
+              <!-- Quote Icon -->
+              <img src="./images/quote-icon.svg" alt="quote-icon"/>
+
+              <p>
+                I had a good experience while using this app, what fascinated me was the live tracking 
+                feature There are many variations of passages of Lorem Ipsum available, but the majority.
+              </p>
+
+              <!-- Stars Icon -->
+              <img class="stars-icon" src="./images/stars-icon.svg" alt="stars-icon"/>
+
+              <div class="review-details">
+                <!-- Card Image -->
+                <div class="card-image">
+                  <img class="card-img" src="./images/img.jpg" alt="image-1"/>
+                </div>
+
+                <div class="card-description">
+                  <h4>Eric Drake</h4>
+
+                  <p>Digital Marketor</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="review-card swiper-slide">
+              <!-- Quote Icon -->
+              <img src="./images/quote-icon.svg" alt="quote-icon"/>
+
+              <p>
+                I had a good experience while using this app, what fascinated me was the live tracking 
+                feature There are many variations of passages of Lorem Ipsum available, but the majority.
+              </p>
+
+              <!-- Stars Icon -->
+              <img class="stars-icon" src="./images/stars-icon.svg" alt="stars-icon"/>
+
+              <div class="review-details">
+                <!-- Card Image -->
+                <div class="card-image">
+                  <img class="card-img" src="./images/img.jpg" alt="image-1"/>
+                </div>
+
+                <div class="card-description">
+                  <h4>Eric Drake</h4>
+
+                  <p>Digital Marketor</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="review-card swiper-slide">
+              <!-- Quote Icon -->
+              <img src="./images/quote-icon.svg" alt="quote-icon"/>
+
+              <p>
+                I had a good experience while using this app, what fascinated me was the live tracking 
+                feature There are many variations of passages of Lorem Ipsum available, but the majority.
+              </p>
+
+              <!-- Stars Icon -->
+              <img class="stars-icon" src="./images/stars-icon.svg" alt="stars-icon"/>
+
+              <div class="review-details">
+                <!-- Card Image -->
+                <div class="card-image">
+                  <img class="card-img" src="./images/img.jpg" alt="image-1"/>
+                </div>
+
+                <div class="card-description">
+                  <h4>Rosa Farmer</h4>
+
+                  <p>UI Designer</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="review-card swiper-slide">
+              <!-- Quote Icon -->
+              <img src="./images/quote-icon.svg" alt="quote-icon"/>
+
+              <p>
+                I had a good experience while using this app, what fascinated me was the live tracking 
+                feature There are many variations of passages of Lorem Ipsum available, but the majority.
+              </p>
+
+              <!-- Stars Icon -->
+              <img class="stars-icon" src="./images/stars-icon.svg" alt="stars-icon"/>
+
+              <div class="review-details">
+                <!-- Card Image -->
+                <div class="card-image">
+                  <img class="card-img" src="./images/img.jpg" alt="image-1"/>
+                </div>
+
+                <div class="card-description">
+                  <h4>Eric Drake</h4>
+
+                  <p>Digital Marketor</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    </section>
+
+    <!-- -------------------------------------------
+    ---- Form Section
+    -------------------------------------------- -->
+
+    <section class="form-section">
+      <div class="form-container">
+        <div class="form-contents">
+          <div class="text">
+              <h3>We Do design, Code & Development</h3>
+  
+              <p class="first-paragraph">
+                I had a good experience while using this app, what fascinated me was the live tracking 
+                feature There are many variations of passages of Lorem Ipsum available, but the majority.
+              </p>
+  
+              <p class="second-paragraph">
+                There are many variations of passages of Lorem Ipsum available, but the majority have 
+                suffered alteration in some form.
+              </p>
+          </div>
+  
+          <form method="post">
+              <h4>Get a free quote now</h4>
+  
+              <label for="name">Name</label>
+              <input type="text" placeholder="Enter your name" required>
+  
+              <label for="email">Email</label>
+              <input type="email" placeholder="Enter your email" required>
+  
+              <label for="mobile">Mobile</label>
+              <input type="tel" placeholder="Enter your phone number" required>
+              
+              <div class="form-btn">
+                <button type="submit" class="pricing-btn">Get Pricing Now</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+<!------===================FOOTERPART=============================-->
+
+<footer>
+  <div class="container">
+    <div class="first-footer d-flex justify-content-between flex-wrap">
+      <!-- Column 1 -->
+      <div class="logo-column">
+        <!-- Footer Logo -->
+        <img class="footer-logo" src="images/Group 1368.png" alt="agenc-logo">
+
+        <p>
+          I had a good experience while using this app, what fascinated me was the live tracking feature 
+          There are many variations of passages of Lorem Ipsum available, but the majority.
+        </p>
+      </div>
+
+        
+      <!-- Column 2 -->
+      <div class="about-column">
+        <h4>About</h4>
+
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="company-column">
+        <h4>Company</h4>
+
+        <ul>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Partner with Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    
+
+    
+      <!-- Column 4 -->
+      <div class="support-column">
+        <h4>Support</h4>
+
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Support Center</a></li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Accesbility</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 5 -->
+      <div class="touch-column">
+        <h4>Get in touch</h4>
+
+        <ul>
+          <li><a href="mailto:info@gmail.com">info@gmail.com</a></li>
+          <li><a href="tel:+8801210212">+88 0121 0212</a></li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <hr/>
+
+    <div class="second-footer">
+      <p class="text-center">All credit goes to @agence.com</p>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- ====================================| Javascript Sources |===================================== -->
+
+    
+ 
+    <!-- JQuery -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- Slick -->
+    <script src="./js/slick.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- JS Source -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
